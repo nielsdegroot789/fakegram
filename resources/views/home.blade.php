@@ -5,7 +5,10 @@
     <div class="row" >
         <div class="col-3 p-5"><img src="https://www.worldfuturecouncil.org/wp-content/uploads/2020/02/dummy-profile-pic-300x300-1.png" style ="height:55%;" class="rounded-circle" alt=""></div>
     <div class="col-9 pt-5">
-    <div><h1>{{ $user->username }}</h1></div>
+    <div class="d-flex justify-content-between align-items-baseline">
+    <h1>{{ $user->username }}</h1>
+    <a href="#">Add new post</a>
+    </div>
     <div class="d-flex">
     <div class="pr-5"><strong>153</strong> posts</div>
     <div class="pr-5"><strong>23k</strong> followers</div>
