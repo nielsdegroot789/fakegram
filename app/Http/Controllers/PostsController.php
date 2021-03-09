@@ -8,7 +8,7 @@ class PostsController extends Controller
 {
     public function create()
     {
-        return view('posts');
+        return view('posts.create');
     }
 }
  
